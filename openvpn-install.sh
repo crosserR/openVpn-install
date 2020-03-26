@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# Secure OpenVPN server installer for Debian, Ubuntu, CentOS, Amazon Linux 2, Fedora and Arch Linux
-# https://github.com/angristan/openvpn-install
+# Secure OpenVPN server installer for Debian, Ubuntu, CentOS, Amazon Linux 2, Fedora and Arch Linux,Support UserPass
+# https://github.com/crosserR/openVpn-install
 
 function isRoot () {
 	if [ "$EUID" -ne 0 ]; then
